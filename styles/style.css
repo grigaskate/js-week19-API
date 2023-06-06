@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+.root {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  margin: 5%;
+}
+
+.article {
+  padding-bottom: 30px;
+}
+
+.title {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: rgb(213, 25, 62);
+}
