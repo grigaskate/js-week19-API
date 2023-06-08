@@ -8,12 +8,42 @@
   margin: 5%;
 }
 
-.article {
-  padding-bottom: 30px;
+.form__addArticle {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article__input {
+  width: 42%;
+  min-height: 50px;
+}
+
+.article__btn {
+  height: 50px;
+  background-color: #64856c;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  border: none;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.containerArticle {
+  margin-bottom: 70px;
+  border-radius: 5px;
+  padding: 30px 20px 30px 30px;
+  background-color: #e1efd2;
+}
+
+h1 {
+  color: #1a2902;
+  font-size: 2.5em;
+  text-align: center;
 }
 
 .title {
   font-size: 1.4em;
   font-weight: 600;
-  color: rgb(213, 25, 62);
+  color: #344c11;
 }
