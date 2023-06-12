@@ -9,7 +9,7 @@
 }
 
 .form__addArticle {
-  margin-bottom: 70px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: space-between;
 }
@@ -46,4 +46,10 @@ h1 {
   font-size: 1.4em;
   font-weight: 600;
   color: #344c11;
+}
+
+.error {
+  color: red;
+  font-size: 1.2em;
+  margin-bottom: 70px;
 }
