@@ -53,7 +53,12 @@ addArticleBtn.onclick = function (event) {
         "Content-type": "application/json; charset=UTF-8",
       },
     })
-      .then((response) => response.json())
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
       .then((article) => {
         const newArticle = document.querySelector(".newArticle");
         const display = `<div class="containerArticle">
